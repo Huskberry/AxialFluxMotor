@@ -49,7 +49,7 @@ Of course, since this is a 3 phase motor, it should work with any reasonable con
  - [ ] Figure out ideal number of turns per stator segment.
  - [ ] Figure out phase resistance.
  - [ ] Figure out inductance.
- - [ ] Figure out how to scale the overall diameter of the machine for different applications.
+ - [ ] Figure out how to scale the overall diameter of the machine for different applications, torque and power numbers.
 
 `Some of the items like inductance and phase resistance are purely to have this project well documented. I still don't know what these are and how they affect the working and choice of material for the motor`
 
