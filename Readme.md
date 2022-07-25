@@ -15,20 +15,20 @@ Github seemed like a great place to start collaborating on this project. This wa
 | Inner Diameter | 100 | mm |
 | Airgap length | 1.50 | mm |
 | Number of Poles | 10 | * |
-| Number of Stator segments | 12 |
+| Number of Stator segments | 12 | * |
 | Number of Phases | 6 | * |
 | Magnet Type | N42UH | * |
 | Max magnet working temp | 180 | °C | 
 | Number of magnets | 60 | (10 * 3 segments on each side) | 
 | Encoder/Actuator | RLS RM44SI0011B10F2F10/RMH06A3A02 | * | 
-| Stator/Rotor Material | Aluminium 6068 | |
+| Stator/Rotor Material | Aluminium 6068 | * |
 | Conductor (Wire) gauge | 19 | AWG |
 | Target RPM | 6000 | RPM |
 | Bearing | 6204-2Z | 2 pcs |
 | Stator segment material | TBD | * |
 | Cooling fluid | 50-50 | volumetric water-glycol mix |
 
-The rest of machine parameters can be explored in the file.
+The rest of machine parameters can be explored in the FreeCAD file `.FCStd`.
 
 For the Encoder, I would like to use a [Rotary Magnetic Encoder](https://www.rls.si/eng/rm44-rm58) from RLS. A hall sensor might do but the fact that I would (personally) want to use [EM-Drive 500](https://www.emdrive-mobility.com/portfolio/emdrive-500/) means that this rotary encoder (position sensor) is ideal.
 
@@ -41,7 +41,7 @@ Of course, since this is a 3 phase motor, it should work with any reasonable con
  - [ ] Figure out what off the shelf lock nut to use for the main shaft.
  - [ ] Figure out how to to make it IP68.
  - [ ] Figure out how to cool the magnets from the outside of the rotor using ambient air (I'm thinking of implementing an impeller design).
- - [ ] Position the back iron to prevent flux leak. Or exlude the backiron to reduce moment of inertia. I can't see it offering any, if much, mechanical advantage to the working of this machine.
+ - [ ] Position the back iron to prevent flux leak. Or exlude the backiron in favor of halback array to reduce moment of inertia. I can't see it offering any, if much, mechanical advantage to the working of this machine.
  - [ ] FEM analysis for everything (rotor, stator, fluid flow for cooling, magnetic interactions, heat generation etc). This will optimise the design. Everything you see here has a tonne of guess work.
  - [ ] Assemble the whole thing from [FreeCAD](https://github.com/FreeCAD).
  - [ ] Figure out the max torque (Suggestions are welcome. No idea how to do this).
