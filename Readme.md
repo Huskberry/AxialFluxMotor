@@ -8,7 +8,7 @@ Github seemed like a great place to start collaborating on this project. This wa
 
 ## Specifications
 | Machine Parameter | Value | Unit |
-| ----------- | -----------: | ----: |
+| ----------- | --------: | ----: |
 | Overall Diameter | 169 | mm |
 | Rotor Width | 65 | mm |
 | Outer Diameter | 150 | mm |
@@ -20,7 +20,7 @@ Github seemed like a great place to start collaborating on this project. This wa
 | Magnet Type | N42UH | * |
 | Max magnet working temp | 180 | °C | 
 | Number of magnets | 60 | (10 * 3 segments on each side) | 
-| Encoder/Actuator | RLS RM44SI0011B10F2F10/RMH06A3A02 | * | 
+| Encoder/Actuator | RLS RM44SI0011B10F2F10 / RMH06A3A02 | * | 
 | Stator/Rotor Material | Aluminium 6068 | * |
 | Conductor (Wire) gauge | 19 | AWG |
 | Target RPM | 6000 | RPM |
