@@ -84,10 +84,10 @@ Country: 🇰🇪 Kenya
 
 ## Some Images
 ![Front Side](./images/front_side.png)
-![Front Side](./images/front.png)
-![Front Side](./images/back.png)
-![Front Side](./images/stator_core.png)
-![Front Side](./images/stator_core_1.png)
-![Front Side](./images/without_outer_ring.png)
-![Front Side](./images/segments.png)
-![Front Side](./images/segments_active.png)
+![Front](./images/front.png)
+![Back Side](./images/back_side.png)
+![Stator core](./images/stator_core.png)
+![Stator core 1](./images/stator_core_1.png)
+![Without outer ring](./images/without_outer_ring.png)
+![segments](./images/segments.png)
+![Segments active](./images/segments_active.png)
