@@ -4,7 +4,7 @@ But an open source one!
 ![Segments active](./images/segments_active.png)
 
 ## Intro
-Hi everyone!
+Hello world!
 
 Github seemed like a great place to start collaborating on this project. This was designed entirely on [FreeCAD](https://github.com/FreeCAD) so I thought it appropriate to give back and share with whoever's out there who would to build one of their own. Axial flux motors are mad expensive. In my opinion, I think they are easiest to build as a hobby grade motor. I am also looking for input on the same so feel free to submit PR.   
 
