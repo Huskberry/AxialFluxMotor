@@ -1,11 +1,12 @@
 # Axial Flux Electric Motor
 But an open source one!
+![Segments active](./images/segments_active.png)
 
 ## Intro
 Hi everyone!
 
 Github seemed like a great place to start collaborating on this project. This was designed entirely on [FreeCAD](https://github.com/FreeCAD) so I thought it appropriate to give back and share with whoever's out there who would to build one of their own. Axial flux motors are mad expensive. In my opinion, I think they are easiest to build as a hobby grade motor. I am also looking for input on the same so feel free to submit PR. 
-
+![Without outer ring](./images/without_outer_ring.png)
 ## Specifications
 | Machine Parameter | Value | Unit |
 | ----------- | --------: | ----: |
@@ -27,14 +28,14 @@ Github seemed like a great place to start collaborating on this project. This wa
 | Bearing | 6204-2Z | 2 pcs |
 | Stator segment material | TBD | * |
 | Cooling fluid | 50-50 | volumetric water-glycol mix |
+![Front Side](./images/front_side.png)
 
 The rest of machine parameters can be explored in the FreeCAD file `.FCStd`.
 
 For the Encoder, I would like to use a [Rotary Magnetic Encoder](https://www.rls.si/eng/rm44-rm58) from RLS. A hall sensor might do but the fact that I would (personally) want to use [EM-Drive 500](https://www.emdrive-mobility.com/portfolio/emdrive-500/) means that this rotary encoder (position sensor) is ideal.
 
 Of course, since this is a 3 phase motor, it should work with any reasonable controller.
-
-
+![Back Side](./images/back_side.png)
 ## Things I'm yet to do
  - [ ] Tap holes that should have screws/bolts going inside them.
  - [ ] Thread the main shaft.
@@ -64,6 +65,7 @@ The advantages (I assume) are obvious here:
 - The surface for eddy currents to form is significanly more distributed compared to sheets.
 
 I'd love to engage with someone who has knowledge on this and possibly do some simulations. I'm a hobbyist at best.
+![segments](./images/segments.png)
 
 ## Some Inpiration
 I'm not sure if there are any open source axial flux motor designs out there (Didn't bother checking after I noticed this thing has so much gatekeeping). I prefer Axial flux because of the high power density and the tools to manufacture all of these parts are an internet search away: especially on [alibaba.com](https://alibaba.com). Induction motors that Tesla Motors uses are way more complex to manufacture.
@@ -82,12 +84,7 @@ Twitter: [tweetat_g](https://twitter.com/tweetat_g)
 Email: engineering@huskberry.com  
 Country: 🇰🇪 Kenya  
 
-## Some Images
-![Front Side](./images/front_side.png)
+## More images
 ![Front](./images/front.png)
-![Back Side](./images/back_side.png)
 ![Stator core](./images/stator_core.png)
 ![Stator core 1](./images/stator_core_1.png)
-![Without outer ring](./images/without_outer_ring.png)
-![segments](./images/segments.png)
-![Segments active](./images/segments_active.png)
