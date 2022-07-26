@@ -67,7 +67,7 @@ choice of material, wire gauge etc for the motor.
 ```
 
 ## Some considerations
-I noticed all articles (that I could get my hands on) about axial flux machines always mention the manufacturing complexity of segment cores; especially if they are trapezoidal in shape. While I understand cores need to be laminated to reduce eddy currents, the shape may not be ideal to manufacture let alone assemble by using sheets. We need different thinking.
+I noticed all articles (that I could get my hands on) about axial flux machines always mention the manufacturing complexity of segment cores; especially if they are trapezoidal in shape. While I understand cores need to be laminated to reduce eddy currents, the shape may not be ideal to manufacture let alone assemble using sheets. We need different thinking.
 
 I propose a simple solution: Think of how 18650 cylindrical cells are packaged. We could use the same idea: laminated ferrite cylinders of about 1 mm in diameter - held together firmly using some epoxy. 
 
@@ -85,8 +85,8 @@ I'm not sure if there are any open source axial flux motor designs out there (Di
 
 [Benjamin Vedder](https://github.com/vedderb), the creator of the open source VESC controller gave us a gift by open sourcing a motor controller (I'd love to configure one to my specific use case one day :)). We should extend the same to complete the loop for hobby EV builders :).
 
-### Two Companies
-[Yasa Motors](https://www.yasa.com/) (Now owned by Mercedes Benz) and [Emrax](https://emrax.com/) are both European. Their motors are hard to get a hold of and outrageously expensive. And if you're really looking you'll barely find much information about them. Emrax is mostly used by FSAE teams from what I gather. Their tech should be in the hands of more people in my opinion but whatever. Here we are. Check out this article: [Emrax motor teardown](https://build-its-inprogress.blogspot.com/2017/05/emrax-motor-teardown.html)
+## Two Companies
+[Yasa Motors](https://www.yasa.com/) (Now owned by Mercedes Benz) and [Emrax](https://emrax.com/) are both European. Their motors are hard to get a hold of and outrageously expensive but undoubtedly impressive; And if you're really looking you'll barely find much information about them online. The first section of this [Emrax motor teardown](https://build-its-inprogress.blogspot.com/2017/05/emrax-motor-teardown.html) article should give you an idea why. Emrax is mostly used by FSAE teams from what I gather. Their tech should be in the hands of more people in my opinion but whatever. Here we are.
 
 ## License
 This design is open-sourced _hardware_ licensed under the [MIT license](https://opensource.org/licenses/MIT). (*we can find the hardware equivalent later lol!*)
