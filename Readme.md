@@ -1,14 +1,16 @@
 # Axial Flux Electric Motor
 But an open source one!   
+
 ![Segments active](./images/segments_active.png)
 
 ## Intro
 Hi everyone!
 
-Github seemed like a great place to start collaborating on this project. This was designed entirely on [FreeCAD](https://github.com/FreeCAD) so I thought it appropriate to give back and share with whoever's out there who would to build one of their own. Axial flux motors are mad expensive. In my opinion, I think they are easiest to build as a hobby grade motor. I am also looking for input on the same so feel free to submit PR. 
+Github seemed like a great place to start collaborating on this project. This was designed entirely on [FreeCAD](https://github.com/FreeCAD) so I thought it appropriate to give back and share with whoever's out there who would to build one of their own. Axial flux motors are mad expensive. In my opinion, I think they are easiest to build as a hobby grade motor. I am also looking for input on the same so feel free to submit PR.   
+
 ![Without outer ring](./images/without_outer_ring.png)   
 ## Specifications
-Download the ![Step File](./Axial%20Flux%20Motor.step) and explore it using a `.step` viewer such as [Autodesk Viewer](https://viewer.autodesk.com/) or other CAD software.   
+Download the [Step File](./Axial%20Flux%20Motor.step) and explore it using a `.step` viewer such as [Autodesk Viewer](https://viewer.autodesk.com/) or other CAD software.   
 
 | Machine Parameter | Value | Unit |
 | ----------- | --------: | ----: |
@@ -39,6 +41,7 @@ The rest of machine parameters can be explored in the FreeCAD file `.FCStd`.
 For the Encoder, I would like to use a [Rotary Magnetic Encoder](https://www.rls.si/eng/rm44-rm58) from RLS. A hall sensor might do but the fact that I would (personally) want to use [EM-Drive 500](https://www.emdrive-mobility.com/portfolio/emdrive-500/) means that this rotary encoder (position sensor) is ideal.
 
 Of course, since this is a 3 phase motor, it should work with any reasonable controller.   
+
 ![Back Side](./images/back_side.png)   
 ## Things I'm yet to do
  - [ ] Tap holes that should have screws/bolts going inside them.
@@ -57,7 +60,8 @@ Of course, since this is a 3 phase motor, it should work with any reasonable con
  - [ ] Figure out how to scale the overall diameter of the machine for different applications, voltage, amperage, torque and power numbers.
 
 ```
-Some of the items like inductance and phase resistance are purely to have this project well documented. I still don't know what these are and how they affect the working and choice of material for the motor
+Some of the items like inductance and phase resistance are purely to have this project well documented.
+I still don't know what these are and how they affect the working and choice of material for the motor
 ```
 
 ## Some considerations
@@ -70,7 +74,8 @@ The advantages (I assume) are obvious here:
 - One can shape the core to a trapezoidal shape quite easily using a simple 3D printed or machined mould. Place the laminated cylinders in the axial direction of the flux and pour in some epoxy to cure. After, simply cut the segments to desired length. ¯\\_(ツ)_/¯
 - The surface for eddy currents to form is significanly more distributed compared to sheets.
 
-I'd love to engage with someone who has knowledge on this and possibly do some simulations. I'm a hobbyist at best.
+I'd love to engage with someone who has knowledge on this and possibly do some simulations. I'm a hobbyist at best.   
+
 ![segments](./images/segments.png)
 
 ## Some Inpiration
