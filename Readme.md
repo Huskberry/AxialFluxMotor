@@ -23,11 +23,13 @@ Github seemed like a great place to start collaborating on this project. This wa
 | Number of magnets | 60 | (10 * 3 segments on each side) | 
 | Encoder/Actuator | RLS RM44SI0011B10F2F10 / RMH06A3A02 | * | 
 | Stator/Rotor Material | Aluminium 6068 | * |
-| Conductor (Wire) gauge | 19 | AWG |
+| Conductor (Wire) gauge | 19 | AWG* Tentative |
 | Target RPM | 6000 | RPM |
 | Bearing | 6204-2Z | 2 pcs |
 | Stator segment material | TBD | * |
 | Cooling fluid | 50-50 | volumetric water-glycol mix |
+
+
 ![Front Side](./images/front_side.png)
 
 The rest of machine parameters can be explored in the FreeCAD file `.FCStd`.
