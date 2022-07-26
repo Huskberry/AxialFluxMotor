@@ -94,7 +94,7 @@ This design is open-sourced _hardware_ licensed under the [MIT license](https://
 ## Creator
 Eugene Wang'ombe  
 Twitter: [tweetat_g](https://twitter.com/tweetat_g)  
-Email: engineering@huskberry.com  
+Email: engineering@huskberry.com (please don't spam)   
 Country: 🇰🇪 Kenya  
 
 ## More images
