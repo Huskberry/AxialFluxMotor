@@ -73,7 +73,7 @@ I propose a simple solution: Think of how 18650 cylindrical cells are packaged. 
 
 The advantages (I assume) are obvious here:
 
-- One can shape the core to a trapezoidal shape quite easily using a simple 3D printed or machined mould. Place the laminated cylinders in the axial direction of the flux and pour in some epoxy to cure. After, simply cut the segments to desired length. ¯\\_(ツ)_/¯
+- One can shape the core to a trapezoid quite easily using a simple 3D printed or machined mould. Place the laminated cylinders in the axial direction of the flux and pour in some epoxy to cure. After, simply cut the segments to desired length. ¯\\_(ツ)_/¯
 - The surface for eddy currents to form is significanly more distributed compared to sheets.
 
 I'd love to engage with someone who has knowledge on this and possibly do some simulations. I'm a hobbyist at best.   
