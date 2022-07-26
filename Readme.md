@@ -10,7 +10,7 @@ Github seemed like a great place to start collaborating on this project. This wa
 
 ![Without outer ring](./images/without_outer_ring.png)   
 ## Specifications
-Download the [Step File](./Axial%20Flux%20Motor.step) and explore it using a `.step` viewer such as [Autodesk Viewer](https://viewer.autodesk.com/) or other CAD software.   
+Download the [.step file](./Axial%20Flux%20Motor.step) and explore it using a `.step` viewer such as [Autodesk Viewer](https://viewer.autodesk.com/) or other CAD software.   
 
 | Machine Parameter | Value | Unit |
 | ----------- | --------: | ----: |
@@ -60,8 +60,10 @@ Of course, since this is a 3 phase motor, it should work with any reasonable con
  - [ ] Figure out how to scale the overall diameter of the machine for different applications, voltage, amperage, torque and power numbers.
 
 ```
-Some of the items like inductance and phase resistance are purely to have this project well documented.
-I still don't know what these are and how they affect the working and choice of material for the motor
+Some of the items like inductance and phase resistance are
+purely to have this project well documented. I still don't
+know what these are and how they affect the working and
+choice of material, wire gauge etc for the motor.
 ```
 
 ## Some considerations
