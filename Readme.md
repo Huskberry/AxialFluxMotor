@@ -81,7 +81,7 @@ I'd love to engage with someone who has knowledge on this and possibly do some s
 ![segments](./images/segments.png)
 
 ## Some Inpiration
-I found [this conversation](https://endless-sphere.com/forums/viewtopic.php?f=30&t=97860) on [endless-sphere.com forums](https://endless-sphere.com/forums/). It's quite extensive on different desings guys have tried despite the gatekeeping of this technology. I prefer Axial flux because of the high power density and the tools to manufacture all of these parts are an internet search away: especially on [alibaba.com](https://alibaba.com). Induction motors that Tesla Motors uses are way more complex to manufacture.
+I found [this conversation](https://endless-sphere.com/forums/viewtopic.php?f=30&t=97860) on [endless-sphere.com forums](https://endless-sphere.com/forums/). It's quite extensive on different designs guys have tried despite the gatekeeping of this technology. I prefer Axial flux because of the high power density and the tools to manufacture all of these parts are an internet search away: especially on [alibaba.com](https://alibaba.com). Induction motors that Tesla Motors uses are way more complex to manufacture.
 
 [Benjamin Vedder](https://github.com/vedderb), the creator of the open source VESC controller gave us a gift by open sourcing a motor controller (I'd love to configure one to my specific use case one day :)). We should extend the same to complete the loop for hobby EV builders :).
 
