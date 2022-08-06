@@ -26,12 +26,14 @@ Download the [.step file](./Axial%20Flux%20Motor.step) and explore it using a `.
 | Max magnet working temp | 180 | °C | 
 | Number of magnets | 60 | (10 * 3 segments on each side) | 
 | Encoder/Actuator | RLS RM44SI0011B10F2F10 / RMH06A3A02 | * | 
-| Stator/Rotor Material | Aluminium 6068 | * |
+| Stator/Rotor Material | Aluminium 7075 | * |
 | Conductor (Wire) gauge | 19 | AWG* Tentative |
 | Target RPM | 6000 | RPM |
 | Bearing | 6204-2Z | 2 pcs |
 | Stator segment material | TBD | * |
 | Cooling fluid | 50-50 | volumetric water-glycol mix |
+| Shaft locknut | R-Type Radial Lock Nut  | M20x1.5 |
+| Stator Mounting Holes | 6 holes | M6x0.75 4G |
 
 
 ![Front Side](./images/front_side.png)   
@@ -44,13 +46,14 @@ Of course, since this is a 3 phase motor, it should work with any reasonable con
 
 ![Back Side](./images/back_side.png)   
 ## Things I'm yet to do
- - [ ] Tap holes that should have screws/bolts going inside them.
  - [ ] Thread the main shaft.
- - [ ] Figure out what off the shelf lock nut to use for the main shaft.
  - [ ] Figure out how to to make it IP68.
  - [ ] Figure out how to cool the magnets from the outside of the rotor using ambient air (I'm thinking of implementing an impeller design).
  - [ ] Position the back iron to prevent flux leak. Or exlude the backiron in favor of halback array to reduce moment of inertia. I can't see it offering any, if much, mechanical advantage to the working of this machine.
- - [ ] FEM analysis for everything (rotor, stator, fluid flow for cooling, magnetic interactions, heat generation etc). This will optimise the design. Everything you see here has a tonne of guess work.
+ - [ ] FEA for rotor
+ - [ ] FEA for stator
+ - [ ] CFD for cooling of stator
+ - [ ] Magnetic interactions analysis
  - [ ] Assemble the whole thing from [FreeCAD](https://github.com/FreeCAD).
  - [ ] Figure out the max torque (Suggestions are welcome. No idea how to do this).
  - [ ] Figure out max power (Suggestions are welcome. No idea how to do this).
