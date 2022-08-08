@@ -1,0 +1,5 @@
+Axial[[:space:]]Flux[[:space:]]Motor.step filter=lfs diff=lfs merge=lfs -text
+base_stator.step filter=lfs diff=lfs merge=lfs -text
+*.FCstd* filter=lfs diff=lfs merge=lfs -text
+*.FCstd filter=lfs diff=lfs merge=lfs -text
+*.FCstd1 filter=lfs diff=lfs merge=lfs -text
