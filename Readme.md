@@ -47,14 +47,13 @@ Of course, since this is a 3 phase motor, it should work with any reasonable con
 ![Back Side](./images/back_side.png)   
 ## Things I'm yet to do
  - [ ] Thread the main shaft.
- - [ ] Figure out how to to make it IP68.
- - [ ] Figure out how to cool the magnets from the outside of the rotor using ambient air (I'm thinking of implementing an impeller design).
- - [ ] Position the back iron to prevent flux leak. Or exlude the backiron in favor of halback array to reduce moment of inertia. I can't see it offering any, if much, mechanical advantage to the working of this machine.
+ - [x] Figure out how to cool the magnets from the outside of the rotor using ambient air (I'm thinking of implementing an impeller design).
+ - [x] Position the back iron to prevent flux leak.
  - [ ] FEA for rotor
  - [ ] FEA for stator
  - [ ] CFD for cooling of stator
  - [ ] Magnetic interactions analysis
- - [ ] Assemble the whole thing from [FreeCAD](https://github.com/FreeCAD).
+ - [ ] Assemble the whole thing in [FreeCAD](https://github.com/FreeCAD).
  - [ ] Figure out the max torque (Suggestions are welcome. No idea how to do this).
  - [ ] Figure out max power (Suggestions are welcome. No idea how to do this).
  - [ ] Figure out ideal number of turns per stator segment.
